@@ -1,13 +1,13 @@
 {
-  "name": "server",
+  "name": "gpt-codex-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "The server side of GPT Codex AI assistant.",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server"
   },
   "keywords": [],
-  "author": "",
+  "author": "Efosa Igbinehi",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
